@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+svg{
+    margin: 20px;
+    overflow: visible;
+}
+.outer-rect{
+    fill: burlywood;
+}
+
+.inner-rect{
+    fill: gray;
+}
+.rect{
+    fill: transparent;
+    stroke: #0086df;
+    stroke-width: 20;
+    stroke-linecap: round;
+    filter: drop-shadow(0 0 20px #0086df);
+    stroke-dasharray: 1600;
+    stroke-dashoffset: 1600;
+    animation: anim 10s linear forwards;
+}
+
+@keyframes anim{
+    100% {
+        stroke-dashoffset: 0;
+    }
+}

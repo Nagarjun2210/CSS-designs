@@ -1,0 +1,21 @@
+.red-box{
+    background: red;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green-box{
+    background: green;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-box{
+    background: blue;
+    height: 100px;
+    width: 100px;
+}
