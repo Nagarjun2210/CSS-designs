@@ -18,13 +18,14 @@ svg{
     stroke-width: 20;
     stroke-linecap: round;
     filter: drop-shadow(0 0 20px #0086df);
-    stroke-dasharray: 1600;
+    stroke-dasharray: 500;
     stroke-dashoffset: 1600;
-    animation: anim 10s linear forwards;
+    animation: anim 5s infinite linear forwards;
 }
 
 @keyframes anim{
     100% {
         stroke-dashoffset: 0;
     }
+    
 }
