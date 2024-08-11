@@ -1,31 +1,35 @@
-body{
-    background-color: black;
-}
-svg{
-    margin: 20px;
-    overflow: visible;
-}
 .outer-rect{
-    fill: burlywood;
+    height: 300px;
+    width: 500px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
 }
-
 .inner-rect{
-    fill: gray;
+    height: 270px;
+    width: 470px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 }
-.rect{
-    fill: transparent;
-    stroke: #0086df;
-    stroke-width: 20;
-    stroke-linecap: round;
-    filter: drop-shadow(0 0 20px #0086df);
-    stroke-dasharray: 500;
-    stroke-dashoffset: 1600;
-    animation: anim 5s infinite linear forwards;
+.spinner-hor{
+    height: 15px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    top: 0px;
+    left: -85px;
 }
-
-@keyframes anim{
-    100% {
-        stroke-dashoffset: 0;
-    }
-    
+.spinner-vert{
+    height: 100px;
+    width: 15px;
+    top: -85px;
+    left: 485px;
+    background-color: aqua;
+    position: absolute;
+    display: none;
 }
